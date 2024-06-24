@@ -1,0 +1,66 @@
+[
+    {
+        "model": "registrarVarietal.nombreabstract",
+        "pk": 1,
+        "fields": {
+            "nombre": "Varietal 1"
+        }
+    },
+    {
+        "model": "registrarVarietal.nombreabstract",
+        "pk": 2,
+        "fields": {
+            "nombre": "Varietal 2"
+        }
+    },
+    {
+        "model": "registrarVarietal.tipouva",
+        "pk": 1,
+        "fields": {
+            "nombre": "Cabernet Sauvignon"
+        }
+    },
+    {
+        "model": "registrarVarietal.tipouva",
+        "pk": 2,
+        "fields": {
+            "nombre": "Merlot"
+        }
+    },
+    {
+        "model": "registrarVarietal.regionvitivinicola",
+        "pk": 1,
+        "fields": {
+            "nombre": "Valle de Napa"
+        }
+    },
+    {
+        "model": "registrarVarietal.regionvitivinicola",
+        "pk": 2,
+        "fields": {
+            "nombre": "La Rioja"
+        }
+    },
+    {
+        "model": "registrarVarietal.varietal",
+        "pk": 1,
+        "fields": {
+            "nombreabstract_ptr": 1,
+            "descripcion": "Varietal rojo con aroma afrutado.",
+            "porcentajeComposicion": "75.0",
+            "tipoUva": 1,
+            "regionVitivinicola": 1
+        }
+    },
+    {
+        "model": "registrarVarietal.varietal",
+        "pk": 2,
+        "fields": {
+            "nombreabstract_ptr": 2,
+            "descripcion": "Varietal blanco con notas florales.",
+            "porcentajeComposicion": "60.0",
+            "tipoUva": 2,
+            "regionVitivinicola": 2
+        }
+    }
+]
